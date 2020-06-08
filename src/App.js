@@ -45,9 +45,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <ListaProductos titulo="Productos en stock" funcion={productosEnStock()} />
-        <ListaProductos titulo="Productos sin stock" funcion={productosSinStock()} />
-        <ListaProductos titulo="Productos a reponer stock" funcion={productosAReponerStock()} />
+        <ListaProductos titulo="Productos en stock" stock={productosEnStock()} />
+        <ListaProductos titulo="Productos sin stock" stock={productosSinStock()} />
+        <ListaProductos titulo="Productos a reponer stock" stock={productosAReponerStock()} />
       </header>
     </div>
   );

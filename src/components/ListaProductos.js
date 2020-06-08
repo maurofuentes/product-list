@@ -15,7 +15,7 @@ class ListaProductos extends Component {
                 </h2>
 
                 <ul>
-                    {this.props.funcion}
+                    {this.props.stock}
                 </ul>
               
             </div>
