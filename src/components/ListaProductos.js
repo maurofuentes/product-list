@@ -2,20 +2,17 @@ import React, { Component } from 'react';
 
 class ListaProductos extends Component {
 
-    constructor(props) {
-        super(props);
-    }
-
-   
     render() {
+        const {titulo, stock} = this.props;
+
         return (
             <div>
                 <h2>
-                    {this.props.titulo}
+                    {titulo}
                 </h2>
 
                 <ul>
-                    {this.props.stock}
+                    {stock}
                 </ul>
               
             </div>
